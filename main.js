@@ -80,7 +80,7 @@ localStorage.setItem(
     "selectedAsset",
     JSON.stringify(selectedAsset)
 );
-lb.href = "./image-tracking/example4.html";
+lb.href = "./image-tracking/gltfs/skull/index.html";
 
 selector.addEventListener("change", (evt) => {
     uploadButton.innerHTML = ` UPLOAD
